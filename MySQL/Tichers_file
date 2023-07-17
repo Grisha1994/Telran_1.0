@@ -1,0 +1,41 @@
+use hr;
+
+-- SELECT sum(salary) from employees where salary > 10000;
+
+-- SELECT sum(
+-- 	case
+-- 		when salary > 10000 then salary else 0
+--     end
+-- ) as "Salary Sum" from employees;
+
+-- Select first_name, last_name, salary from employees;
+
+-- select sum(
+-- 	case
+-- 		when salary > 10000 then salary * 0.07 else salary * 0.05
+--     end
+-- ) as "Taxes" from employees;
+
+-- select avg(
+-- 	case
+-- 		when salary <= 10000 then salary else null
+--     end
+-- ) as "Middle" from employees;
+
+-- Select first_name, last_name, salary, department_id from employees;
+
+-- Select department_id, sum(salary) from employees group by department_id order by department_id;
+
+-- Select department_id, min(
+-- 	case
+-- 		when salary >= 10000 then 1 else 0
+-- 	end
+-- ) as "are_everyone_more_10k" from employees group by department_id; 
+
+-- Select department_id, max(salary), min(salary) from employees group by department_id;
+
+select department_id, max(
+	case
+		when salary >= 10000 then 1 else 0
+    end
+) as "is_anyone_more_10k" from employees group by department_id order by department_id;

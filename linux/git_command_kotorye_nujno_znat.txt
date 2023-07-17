@@ -1,0 +1,13 @@
+git init
+git add
+git reset
+git commit
+git push
+git remote
+git status
+git diff
+git show
+git merge
+git branch
+git checkout
+git rm

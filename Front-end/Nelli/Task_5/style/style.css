@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product_card {
+    border: 3px dashed green;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .products_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  

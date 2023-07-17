@@ -1,0 +1,7 @@
+.item{
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}

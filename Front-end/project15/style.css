@@ -1,0 +1,32 @@
+.active {
+    height: 100vh;
+    background-color: aqua;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.todo {
+    width: 40%;
+    background: aqua;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.red {
+    background: red;
+}
+

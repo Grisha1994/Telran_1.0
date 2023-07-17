@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+   
+}
+
+.container input{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.container select{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.container form{
+    display: flex;
+    gap: 10px;
+}
+
+.container div{
+    display: flex;
+    gap: 5px;
+}

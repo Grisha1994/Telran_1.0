@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for run in {1..10}
+do
+DATE=$(date +"%H_%M_%S")
+echo $run
+echo $DATE
+touch gen/$run'_'$DATE
+done
+
+crontab -e
+*/15 * * * * ec2-user /bin/bash /opt/43_44_morning/grisha/taskGrisha.sh

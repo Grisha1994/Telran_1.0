@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_container{
+    display: grid;
+    max-width: 900px;
+    margin: 20px auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.user{
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+}

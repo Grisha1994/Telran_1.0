@@ -1,0 +1,31 @@
+.product_item{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_item div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    color: white;
+    background-color: darkcyan;
+}  
+
+.product_item p:last-child{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}

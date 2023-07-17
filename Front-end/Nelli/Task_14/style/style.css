@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+.lang{
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid burlywood;
+}
+
+.lang p{
+    padding: 5px;
+}

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tutors_container > div div {
+    height: 190px;
+    width: 190px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  

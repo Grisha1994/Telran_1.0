@@ -1,0 +1,99 @@
+.tb1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    border: 1px solid black;
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+
+th {
+    font-size: 20px;
+    padding: 10px;
+    
+    
+    
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+
+
+.tb2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-collapse: collapse; 
+    border: 2px solid black;
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+      
+}
+
+.tb2 th {
+    background-color: blueviolet;
+    border: 1px solid greenyellow;
+    
+    
+}
+
+.tb2 td:first-child {
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: left;
+    
+}
+
+.tb2 td {
+    background: rgb(238, 126, 126);
+    border: 1px solid greenyellow;
+    text-align: right;
+}
+
+
+
+
+.tb3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: 5px solid;
+    border-collapse: collapse;
+    background-color: rgb(71, 149, 123);
+    width: 400px;
+    margin-bottom: 100px; 
+}
+
+.tb3 td:nth-child(even), .tb3 th:nth-child(even) {
+    background-color: wheat;
+    padding: 15px;
+}
+
+.tb3 td:nth-child(odd), .tb3 th:nth-child(odd) {
+    background-color: rgb(239, 178, 65);
+    padding: 15px;
+}
+
+.tb4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+    margin-bottom: 100px; 
+    border: 2px solid black;
+}
+
+.tb4 tr:nth-child(even) {
+     background-color: brown;
+}
+
+.tb4 tr:nth-child(odd) {
+    background-color: rgb(165, 157, 42);
+}
+
+    
+.td4 td, .td4 th {
+    padding: 10px;
+}

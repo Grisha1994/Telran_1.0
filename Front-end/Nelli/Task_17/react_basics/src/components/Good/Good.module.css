@@ -1,0 +1,14 @@
+.good_item{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+
+.good_item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: white;
+}

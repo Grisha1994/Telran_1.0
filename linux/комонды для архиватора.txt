@@ -1,0 +1,20 @@
+        c Создать
+        x Извлечь
+        t Список
+        -f FILE Имя TARFILE ('-' для stdin/out)
+        -C DIR Изменение в DIR перед операцией
+        -v Verbose
+        -O Извлечь в stdout
+        -m Не восстанавливать mtime
+        -o Не восстанавливать user:group
+        -k Не заменять существующие файлы
+        -Z (Де)сжатие с помощью compress
+        -z (Де)сжатие с помощью gzip
+        -J (De)compress using xz
+        -j (De)compress using bzip2
+        -a (De)compress using lzma
+        -h Следовать симлинкам
+        -T FILE Файл с именами для включения
+        -X FILE Файл с глобальными шаблонами для исключения
+        --exclude PATTERN Глобальный шаблон для исключения
+

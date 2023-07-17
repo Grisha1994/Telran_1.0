@@ -1,0 +1,21 @@
+<script>
+    const numDisks = 3;
+    const stand_1 = 1;
+    const stand_2 = 2;
+    const stand_3 = 3;
+    
+
+    function hanoiTower(numDisks, stand_1, stand_3, stand_2) {
+    if (numDisks === 1) {
+        console.log(`Переместите диск 1 из стойки ${stand_1} на стойку ${stand_3}`);
+        return;
+    }
+    hanoiTower(numDisks - 1, stand_1, stand_2, stand_3);
+    console.log(`Переместите диск ${numDisks} из стойки ${stand_1} на стойку ${stand_3}`);
+    hanoiTower(numDisks - 1, stand_2, stand_3, stand_1);
+}
+
+
+
+hanoiTower(numDisks, stand_1, stand_3, stand_2);
+</script>

@@ -1,0 +1,10 @@
+.item{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border:  2px solid burlywood;
+    border-radius: 10px;
+    background: rgb(255, 238, 215);
+}

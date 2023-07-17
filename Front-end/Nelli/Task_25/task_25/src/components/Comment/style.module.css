@@ -1,0 +1,19 @@
+.comment_item {
+    display: flex;
+    justify-content: space-between;
+    color: darkgray;
+    border-bottom: 1px dotted darkgray;
+    padding: 5px 0;
+  }
+  
+  .btn_comment{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(158, 137, 137);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 201, 201);
+  }

@@ -1,0 +1,7 @@
+.item{
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid burlywood;
+    display: flex;
+    gap: 20px;
+}

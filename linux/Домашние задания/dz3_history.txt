@@ -1,0 +1,8 @@
+   0 vi /tmp/file.txt
+   1 df -h | tail -3 >> /tmp/file.txt
+   2 chmod u-r,g+w,o+x /tmp/file.txt
+   3 export NAME=Grisha VAR=Privet
+   4 echo $NAME $VAR | tail >> /tmp/file.txt
+   5 nano /tmp/file.txt
+   6 unset NAME VAR
+   7 history > history.txt

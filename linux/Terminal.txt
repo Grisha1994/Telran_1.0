@@ -1,0 +1,13 @@
+ls
+df
+du
+mkdir
+touch
+grep
+| (pipe)
+vim
+htop
+ssh
+chmod
+chown
+cat

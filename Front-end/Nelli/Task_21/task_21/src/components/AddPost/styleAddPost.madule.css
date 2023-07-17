@@ -1,0 +1,9 @@
+.formPost{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div{
+    margin: 20px;
+}

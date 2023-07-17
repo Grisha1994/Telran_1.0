@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/* header */
+
+.header-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon:not(:last-child) {
+    margin-right: 55px;
+}
+
+/*header end */
+
+/* intro */
+
+.intro {
+    background: #4FBFA5;
+    padding: 25px 0 60px;
+}
+
+.intro-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+
+.nav-link:last-child {
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+   
+}
+
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.intro-img {
+    width: 60%;
+}
+
+.intro-text {
+    width: 100%;
+}
+
+.intro-title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.intro-descr {
+    font-size: 14px;
+    margin: 40px 0;
+}
+
+.intro-bth {
+    padding: 15px 25px;
+    background: #00868A;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-style: italic;
+    color: white;
+}
+
+
+/* end */
+
+
+.wrapper-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-title {
+    margin: 145px auto 60px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    color: #00868A;
+    
+}
+
+.lamps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px; 
+}
+
+.lamps-scale {
+    width: 25%; 
+    background: #00868A;   
+}
+
+.picture {
+   width: 100%;
+}
+
+.new {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    margin: 30px;
+}
+
+.lamps-scale:not(:last-child) {
+    margin-right: 25px;
+}
+
+.link-name {
+    display: flex;
+    justify-content: center;
+    padding: 30px 25px;
+}
+
+p {
+    font-style: italic;
+    font-size: 21px;
+    margin-right: 15px;
+    color: white;
+}
+
+
+.footer-wrapper {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-icon:not(:last-child) {
+    margin-right: 55px;
+}

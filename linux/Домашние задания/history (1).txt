@@ -1,0 +1,10 @@
+   0 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish
+   1 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfild.txt /home/animals/fish/nemo.txt
+   2 touch /tmp/adam.txt
+   3 mkdir /home/humans
+   4 cp /tmp/adam.txt /home/humans/adam.txt
+   5 touch /tmp/evA.txt
+   6 mv /tmp/evA.txt /opt/eve.txt
+   7 mv /opt/eve.txt /home/humans/eve.txt
+   8 tree /home/humans/
+   9 history > history.txt

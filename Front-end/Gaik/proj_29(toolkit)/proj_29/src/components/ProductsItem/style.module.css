@@ -1,0 +1,22 @@
+.item {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 200px 1fr auto;
+    gap: 10px;
+}
+
+.item img{ 
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+}
+
+.item div {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto) 1fr;
+    gap: 10px;
+    align-items: center; 
+}

@@ -1,0 +1,16 @@
+.item{
+    display: flex;
+    gap: 20px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.defalt_price{
+    text-decoration: line-through;
+}
+
+.real_price{
+    color: red;
+}

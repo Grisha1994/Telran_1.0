@@ -1,0 +1,3 @@
+1. Создать компоненты Card и CardsContainer
+2. Создать состояние cards, положить в состояние массив words
+3. Из состояния cards внутри CardsContainer отрисовать карточки (Card)

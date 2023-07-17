@@ -1,0 +1,18 @@
+.list-elem {
+	list-style: none;
+}
+.nav-link {
+	color: #981010;
+	text-decoration: none;
+}
+
+
+.price-list {
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+.price-section:hover .price-list {
+	opacity: 1;
+}
+

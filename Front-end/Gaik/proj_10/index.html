@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <form class="add_task">
+        <input type="text" placeholder="Задача" name="title">
+        <select name="priority">
+            <option value="1">Важное</option>
+            <option value="2">Не очень</option>
+        </select>
+        <button>Добавить</button>
+    </form>
+
+    <div class="tasks"></div>
+    <div class="info">
+        <p>Важные дела: <span class="imp"></span></p>
+        <p>Неважные дела: <span class="unimp"></span></p>
+        <p>Все дела: <span class="allimp"></span></p>
+    </div>
+    
+
+    <script src="./script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+div {
+    transition: 1s;   
+}
+div:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+body {
+    display: block;
+    margin: auto;
+    background: url(../img/salon.jpg) fixed;
+}
+h1{
+    color: white;
+}
+
+h2 {
+    color: white;
+    box-shadow: 0 0 15px 5px rgb(251, 230, 230);
+}
+
+h3 {
+    width: 500px;
+    display: block;
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgb(156, 170, 170);
+}
+

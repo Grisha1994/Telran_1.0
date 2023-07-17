@@ -1,0 +1,14 @@
+main {
+    width: 600px;
+}
+
+.skill-scale {
+    height: 20px;
+    background-color: rgb(156, 177, 177);
+}
+
+.skill-scale-internal {
+    width: 80%;
+    height: 20px;
+    background-color: rgb(52, 148, 207);
+}

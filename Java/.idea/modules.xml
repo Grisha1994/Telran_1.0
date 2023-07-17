@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Homework/Homework.iml" filepath="$PROJECT_DIR$/Homework/Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson 1_ 43-44/lesson 1_ 43-44.iml" filepath="$PROJECT_DIR$/lesson 1_ 43-44/lesson 1_ 43-44.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson 2_43-44/lesson 2_43-44.iml" filepath="$PROJECT_DIR$/lesson 2_43-44/lesson 2_43-44.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson 3_ 43-44/lesson 3_ 43-44.iml" filepath="$PROJECT_DIR$/lesson 3_ 43-44/lesson 3_ 43-44.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson 4_44-43/lesson 4_44-43.iml" filepath="$PROJECT_DIR$/lesson 4_44-43/lesson 4_44-43.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_1/project_1.iml" filepath="$PROJECT_DIR$/project_1/project_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_2/project_2.iml" filepath="$PROJECT_DIR$/project_2/project_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_3/project_3.iml" filepath="$PROJECT_DIR$/project_3/project_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_4/project_4.iml" filepath="$PROJECT_DIR$/project_4/project_4.iml" />
+    </modules>
+  </component>
+</project>
